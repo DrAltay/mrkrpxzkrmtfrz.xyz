@@ -7,11 +7,15 @@
             article {
                 text-align: center;
                 margin: auto;
-                width: 80%;
+                width: 60%;
+                min-width: 300px;
             }
             #juron {
                 font-family: Tintin, Arial, Verdana, serif;
                 font-size: 2em;
+            }
+            small {
+                font-size: 0.5em;
             }
             @font-face {
                 font-family: Tintin;
@@ -23,7 +27,8 @@
         <article>
             <button onClick="refresh_insult();">Un autre, milles sabords !</button><br />
             <h1 id="juron">MRKRPXZKRMTFRZ !</h1>
-            <img src="haddock.jpg" alt="Haddock dit :" />
+            <p><img src="haddock.jpg" alt="Haddock dit :" /></p>
+            <small>Le capitaine Haddock (et ses jurons) est une oeuvre de <a href="https://fr.wikipedia.org/wiki/Herg%C3%A9">Hergé</a>.</small>
         </div>
         <script>
             // Fonction affichant une nouvelle insulte au hasard
@@ -424,6 +429,5 @@
             "Zapotèques"
         ];
         </script>
-        <small>Le capitaine Haddock (et ses jurons) est une oeuvre créée par <a href="https://fr.wikipedia.org/wiki/Herg%C3%A9">Hergé</a>.</small>
     </body>
 </html>
