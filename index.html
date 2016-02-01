@@ -3,11 +3,26 @@
     <head>
         <title>MRKRPXZKRMTFRZ - Générateur de juron du capitaine Haddock</title>
         <meta charset="UTF-8" />
+        <style>
+            article {
+                text-align: center;
+                margin: auto;
+                width: 80%;
+            }
+            #juron {
+                font-family: Tintin, Arial, Verdana, serif;
+                font-size: 2em;
+            }
+            @font-face {
+                font-family: Tintin;
+                src: url(tintin_talking.ttf);
+            }
+        </style>
     </head>
     <body>
-        <div style="text-align: center; margin: auto; width=80%;">
+        <article>
             <button onClick="refresh_insult();">Un autre, milles sabords !</button><br />
-            <h1 id="juron" style="font-family: Arial, Verdana, serif;">MRKRPXZKRMTFRZ !</h1>
+            <h1 id="juron">MRKRPXZKRMTFRZ !</h1>
             <img src="haddock.jpg" alt="Haddock dit :" />
         </div>
         <script>
